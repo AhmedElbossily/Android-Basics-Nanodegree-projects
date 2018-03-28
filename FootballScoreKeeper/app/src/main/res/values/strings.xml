@@ -1,0 +1,15 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Football Score Keeper</string>
+    <!-- name of the first team -->
+    <string name="team_a">Team A</string>
+    <!-- name of the second team -->
+    <string name="team_b">Team B</string>
+    <!-- initial score for both team equal 0-->
+    <string name="initial_score">ah<xliff:g id="time">0</xliff:g></string>
+    <!-- goal text button -->
+    <string name="goal">Goal</string>
+    <!-- foul text button -->
+    <string name="foul">foul</string>
+    <!-- reset text button -->
+    <string name="reset">Reset</string>
+</resources>
