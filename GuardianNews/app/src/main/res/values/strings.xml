@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Guardian News</string>
+    <!--hints-->
+    <string name="title">Title</string>
+    <string name="section">Section</string>
+    <string name="publication_date">Publication Date</string>
+    <string name="Author_Name">No Available Authors</string>
+    <!--Messages in case of no news-->
+    <string name="no_news">No Available News, Try to modify your requested search</string>
+    <!--Messages in case of no internet-->
+    <string name="no_internet">No Available Internet Connection, Try to connect your device to the internet</string>
+    <!--Menu strings-->
+    <string name="settings_menu_item">Settings</string>
+    <string name="setting_title">News Settings</string>
+    <!--Preferences Strings for topic-->
+    <string name="settings_topic_label">Topic</string>
+    <string name="settings_topic_key" translatable="false">topic_key</string>
+    <string name="settings_default_key" translatable="false">news</string>
+    <!--Preference strings for order by-->
+    <string name="settings_order_by_key">order_by_key</string>
+    <string name="settings_order_by_default_value">@string/Settings_order_by_relevance_value</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="Settings_order_by_newest_value">newest</string>
+    <string name="Settings_order_by_oldest_label">Oldest</string>
+    <string name="Settings_order_by_oldest_value">oldest</string>
+    <string name="Settings_order_by_relevance_label">Relevance</string>
+    <string name="Settings_order_by_relevance_value">relevance</string>
+</resources>

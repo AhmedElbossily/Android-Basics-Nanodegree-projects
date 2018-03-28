@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!--Topic Title-->
+    <TextView
+        android:id="@+id/title_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <!--Section name-->
+    <TextView
+        android:id="@+id/section_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/section"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+    <!--Author name-->
+    <TextView
+        android:id="@+id/author_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Author_Name"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+    <!--Publication date-->
+    <TextView
+        android:id="@+id/date_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/publication_date"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+</LinearLayout>

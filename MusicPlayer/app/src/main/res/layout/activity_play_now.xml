@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="elbossily.musicplayer.PlayNowActivity">
+
+    <!--apply vertical linear layout to contain all views for this activity-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <!--apply horizontal linear layout to contain name of artist, song and album-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/artist_id"
+                style="@style/PlayNowTextViewStyle"
+                android:text="@string/artists" />
+
+            <TextView
+                android:id="@+id/song_id"
+                style="@style/PlayNowTextViewStyle"
+                android:layout_weight="2"
+                android:text="@string/songs"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/album_id"
+                style="@style/PlayNowTextViewStyle"
+                android:text="@string/albums" />
+        </LinearLayout>
+
+        <!-- image view contain back ground image-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back_ground_image" />
+
+        <!--Horizontal layout contain button for playing music-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <ImageButton
+                style="@style/PlayNowImageButtonStyle"
+                android:src="@android:drawable/ic_media_previous" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:background="@android:color/holo_orange_dark"
+                android:padding="16dp"
+                android:src="@android:drawable/ic_media_play" />
+
+            <ImageButton
+                style="@style/PlayNowImageButtonStyle"
+                android:src="@android:drawable/ic_media_next" />
+        </LinearLayout>
+        <!--button for moving back-->
+        <Button
+            android:id="@+id/back_button_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:padding="16dp"
+            android:text="@string/back" />
+    </LinearLayout>
+</layout>

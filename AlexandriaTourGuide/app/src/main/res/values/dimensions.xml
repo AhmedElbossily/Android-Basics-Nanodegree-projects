@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dimensions of image appears in the list of place description-->
+    <dimen name="image_height">88dp</dimen>
+    <dimen name="image_width">88dp</dimen>
+</resources>

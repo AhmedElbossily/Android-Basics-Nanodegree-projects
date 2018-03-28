@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <!--item hints-->
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier">Supplier Name</string>
+    <string name="supplier_phone">phone</string>
+    <!--save and delete actions-->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <!--titles of tool bar-->
+    <string name="add_product">Add A Product</string>
+    <string name="update_product">Update Product</string>
+    <!--Error messages-->
+    <string name="missing_product_name">Product name is missed, Enter product name and try to save again</string>
+    <string name="missing_price">price is missed, Enter the price and try to save again</string>
+    <string name="missing_quantity">Quantity is missed, Enter the quantity and try to save again</string>
+    <string name="missing_supplier_name">Supplier name is missed, Enter the supplier name and try to save again</string>
+    <string name="missing_supplier_phone">number is missed, Enter the supplier phone number and try to save again</string>
+    <string name="quantity_not_valid">Can not be less than Zero !!</string>
+    <string name="error_in_updating">Error in updating</string>
+    <string name="error_in_saving">Error in saving</string>
+    <string name="updated">Updated</string>
+    <string name="added">Added</string>
+    <string name="empty_view_title_text">No Products Inside The Inventory</string>
+    <string name="empty_view_subtitle_text">Start By Adding New Product</string>
+    <!--sale Button-->
+    <string name="sale">Sale</string>
+    <!--Alert dialog for going to back activity-->
+    <string name="unsaved_changes_dialog_message">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <!--Alert dialog for deleting-->
+    <string name="are_you_sure">Delete Product?</string>
+    <string name="yes">DELETE</string>
+    <string name="no">CANCEL</string>
+</resources>

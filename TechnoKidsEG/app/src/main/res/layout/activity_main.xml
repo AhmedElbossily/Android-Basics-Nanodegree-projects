@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/techno_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/general_background_color"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:minHeight="@dimen/list_item_height"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/list_item_height"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/location" />
+
+            <TextView
+                style="@style/textViewStyle"
+                android:background="@color/location_color"
+                android:text="@string/Location" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/list_item_height"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/mail" />
+
+            <TextView
+                style="@style/textViewStyle"
+                android:background="@color/mail_color"
+                android:text="@string/Mail" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/list_item_height"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/call"/>
+
+            <TextView
+                style="@style/textViewStyle"
+                android:background="@color/telephone_color"
+                android:text="@string/Telephone"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+</LinearLayout>

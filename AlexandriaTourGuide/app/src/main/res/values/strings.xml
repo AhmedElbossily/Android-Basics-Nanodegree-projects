@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name" translatable="false">Alexandria Tour Guide</string>
+
+    <!--hints-->
+    <string name="place_name">Place Name</string>
+    <string name="place_location">Place location</string>
+
+    <!--tab names-->
+    <string name="cafe">Cafes</string>
+    <string name="cinema">Cinemas</string>
+    <string name="hotel">Hotels</string>
+    <string name="mall">Malls</string>
+
+    <!--restaurants names-->
+    <string name="first_restaurant_name" translatable="false">Abd El Wahab grills Village</string>
+    <string name="second_restaurant_name" translatable="false">Country Hills</string>
+    <string name="third_restaurant_name" translatable="false">Holmes Hills</string>
+    <string name="fourth_restaurant_name" translatable="false">Byblos</string>
+    <string name="fifth_restaurant_name" translatable="false">Samakmak</string>
+    <string name="sixth_restaurant_name" translatable="false">Pablo Cafe</string>
+    <string name="seventh_restaurant_name" translatable="false">Delices</string>
+    <string name="eighth_restaurant_name" translatable="false">Latino Cafe</string>
+    <string name="ninth_restaurant_name" translatable="false">White and Blue Restaurant</string>
+
+    <!--restaurants location-->
+    <string name="first_restaurant_location">Cairo Alex Desert Rd, Abis, Qism Moharram Bek</string>
+    <string name="second_restaurant_location">73 Down Town, El-Horeya Rd</string>
+    <string name="third_restaurant_location">7 Ibrahim Naseer, San Stifano, Qism El-Raml</string>
+    <string name="fourth_restaurant_location">El-Gaish Rd, Alexandria Governorate</string>
+    <string name="fifth_restaurant_location">60 Sidi Yakout, As Sayalah Gharb, Qesm Al Gomrok</string>
+    <string name="sixth_restaurant_location">El-Gaish Rd, San Stifano, Qism El-Raml</string>
+    <string name="seventh_restaurant_location">46 Saad Zaghloul, Raml Station</string>
+    <string name="eighth_restaurant_location">Qism El-Raml</string>
+    <string name="ninth_restaurant_location">Qesm Al Gomrok</string>
+
+    <!--Malls names-->
+    <string name="first_mall_name" translatable="false">San Stefano Mall</string>
+    <string name="second_mall_name" translatable="false">Green Plaza Mall</string>
+    <string name="third_mall_name" translatable="false">Zahran Mall</string>
+    <string name="fourth_mall_name" translatable="false">Renaissance Mall</string>
+    <string name="fifth_mall_name" translatable="false">Kiroseiz MAll</string>
+    <string name="sixth_mall_name" translatable="false">Abdel Moneim Gaber Mall</string>
+    <string name="seventh_mall_name" translatable="false">City Center Mall</string>
+    <string name="eighth_mall_name" translatable="false">Metro Mall</string>
+    <string name="ninth_mall_name" translatable="false">Deeb Mall</string>
+
+    <!--Malls location-->
+    <string name="first_mall_location">El-Gaish Rd, Qism El-Raml</string>
+    <string name="second_mall_location">14th of May Bridge Rd, Ezbet El-Nozha</string>
+    <string name="third_mall_location">Semouha, Alexandria</string>
+    <string name="fourth_mall_location">22E Al Bakht, Al Mesallah Sharq</string>
+    <string name="fifth_mall_location">El Qasem, Abu an Nawatir</string>
+    <string name="sixth_mall_location">El-Gaish Rd, Alexandria</string>
+    <string name="seventh_mall_location">Qetaa at Tarik as Sahrawi, Alexansria</string>
+    <string name="eighth_mall_location">Al Mesallah Sharq, Alexansria</string>
+    <string name="ninth_mall_location">1 Syria Street, Alexandria</string>
+
+    <!--Hotel names-->
+    <string name="first_hotel_name" translatable="false">Paradise Inn Windsor Palace Hotel</string>
+    <string name="second_hotel_name" translatable="false">Cherry Maryski Hotel</string>
+    <string name="third_hotel_name" translatable="false">Alexandria Romance Hotel</string>
+    <string name="fourth_hotel_name" translatable="false">TOLIP Hotel Alexandria</string>
+    <string name="fifth_hotel_name" translatable="false">Cherry Maryski Hotel</string>
+    <string name="sixth_hotel_name" translatable="false">Raml Station Hotel</string>
+    <string name="seventh_hotel_name" translatable="false">Sheraton Montazah Hotel</string>
+    <string name="eighth_hotel_name" translatable="false">Le Metropole Hotel</string>
+    <string name="ninth_hotel_name" translatable="false"> Plaza Hotel Alexandria</string>
+
+    <!--Hotel location-->
+    <string name="first_hotel_location">17 EL Shohada Street Alexandria, El-Gaish Rd</string>
+    <string name="second_hotel_location">9 Mohammed Farid, Al Mesallah Gharb WA Sharif Basha</string>
+    <string name="third_hotel_location"> 303 Tareek El Gueish Saba Pasha</string>
+    <string name="fourth_hotel_location"> 252 El-Gaish Rd, Mustafa Kamel WA Bolkli</string>
+    <string name="fifth_hotel_location">9 Mohammed Farid, Al Mesallah Gharb WA Sharif Basha, Qesm Al Attarin</string>
+    <string name="sixth_hotel_location">Omar Lotfy, RAML STATION، Qesm Al Attarin</string>
+    <string name="seventh_hotel_location"> Al Kornish, Al Mandarah Bahri, Qism El-Montaza</string>
+    <string name="eighth_hotel_location">52 Saad Zaglol Street, Raml Station, Alexandria، Al Seifarah Al Etalia</string>
+    <string name="ninth_hotel_location">394 El-Gaish Rd, San Stifano, Qism El-Raml</string>
+
+    <!--Cinema names-->
+    <string name="first_cinema_name" translatable="false">San Stefano Cinema</string>
+    <string name="second_cinema_name" translatable="false">Cine Plex Green Plaza</string>
+    <string name="third_cinema_name" translatable="false">Renaissance Cinema</string>
+    <string name="fourth_cinema_name" translatable="false">Renaissance Cinema Royal</string>
+    <string name="fifth_cinema_name" translatable="false">Kiroseiz Cinema</string>
+    <string name="sixth_cinema_name" translatable="false">Abdel Moneim Gaber Cinemas</string>
+    <string name="seventh_cinema_name" translatable="false">VOX Cinema City Center</string>
+    <string name="eighth_cinema_name" translatable="false">Metro Cinema</string>
+    <string name="ninth_cinema_name" translatable="false">Deeb Mall Cinema</string>
+
+    <!--Cinema location-->
+    <string name="first_cinema_location">El-Gaish Rd, Qism El-Raml</string>
+    <string name="second_cinema_location">14th of May Bridge Rd, Ezbet El-Nozha</string>
+    <string name="third_cinema_location">Zahran Mall, Semouha</string>
+    <string name="fourth_cinema_location">22E Al Bakht, Al Mesallah Sharq</string>
+    <string name="fifth_cinema_location"> El Qasem, Abu an Nawatir</string>
+    <string name="sixth_cinema_location"> El-Gaish Rd, Sidi Gaber</string>
+    <string name="seventh_cinema_location"> Qetaa at Tarik, Qesm Al Amereyah</string>
+    <string name="eighth_cinema_location">2 Fawzi Fahmy, Al Mesallah Sharq</string>
+    <string name="ninth_cinema_location">1 Syria Street, Alexandria</string>
+</resources>

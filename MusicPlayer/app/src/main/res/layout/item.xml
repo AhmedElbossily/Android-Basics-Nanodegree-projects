@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!--relative layout contain vertical linear layout and image view-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="horizontal">
+    <!--vertical linear layout hold name of song, artist and album-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/song_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/songs"
+            android:textColor="@color/textColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/artist_id"
+            style="@style/ItemStyle"
+            android:hint="@string/artists" />
+
+        <TextView
+            android:id="@+id/album_id"
+            style="@style/ItemStyle"
+            android:hint="@string/albums" />
+    </LinearLayout>
+
+    <!--image indicates that you can click on the song to play it-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_media_play" />
+</RelativeLayout>

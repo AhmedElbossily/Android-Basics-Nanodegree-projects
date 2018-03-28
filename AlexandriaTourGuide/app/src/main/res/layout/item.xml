@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <!--image view for contain an image for the place-->
+    <ImageView
+        android:id="@+id/image_id"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:scaleType="centerCrop"/>
+    <!--Linear vertical layout hold textView for place name and location-->
+    <LinearLayout
+        android:id="@+id/linear_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!--textView for place name-->
+        <TextView
+            android:id="@+id/place_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/place_name"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <!--textView for place location-->
+        <TextView
+            android:id="@+id/location_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/place_location"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--songs list-->
+    <ListView
+        android:id="@+id/songs_list_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="48dp"
+        tools:context="elbossily.musicplayer.MainActivity"></ListView>
+
+    <!--play now button-->
+    <Button
+        android:id="@+id/playing_now_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="16dp"
+        android:text="@string/play_now" />
+</RelativeLayout>
